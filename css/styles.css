@@ -1,0 +1,273 @@
+body {
+  color: #8f8f8f;
+  font-family: Montserrat;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+footer {
+  width: 100%;
+  height: 125px;
+  background-color: #17a2b8;
+  color: white;
+  bottom: 0;
+  font-family: Montserrat;
+  line-height: 1.25;
+}
+
+.hrMain {
+  height: 2px;
+  border: none;
+  background-color: #17a2b8;
+  width: 30%;
+  margin-bottom: 5%;
+  margin-left: 0;
+  text-align: left;
+}
+
+.hrFooter {
+  height: 2px;
+  border: none;
+  background-color: black;
+  width: 30%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+/* navbar attribute beginning */
+#mainNavbar .navbar-brand {
+  color: white;
+  font-size: .75rem;
+  font-weight: 75;
+}
+
+#mainNavbar .navbar-brand:hover {
+  color: #737170;
+}
+
+#mainNavbar .nav-link {
+  color: white;
+  font-size: 15px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-family: Montserrat;
+}
+
+#mainNavbar .nav-link2 {
+  color: #c8cbcc;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#mainNavbar .nav-link2:hover {
+  color: #ffffff;
+  transition: color 400ms;
+}
+
+#mainNavbar .nav-link:hover {
+  color: white;
+  font-weight: bold;
+  transition: font-weight 300ms;
+}
+
+.mybgnav {
+  background: rgba(23, 162, 184, 0.5);
+}
+
+.navbar.scrolled {
+  background: #17a2b8;
+  opacity: 1.0;
+  transition: background 600ms;
+}
+
+.mybgnav2 {
+  background: #17a2b8;
+}
+
+.space {
+  margin-left: 30px;
+}
+
+/* navbar attribute end */
+/* Intro Picture and Title */
+.mainTitle {
+  background-image: url("images/beach.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.content {
+  text-align: center;
+  padding-top: 23%;
+}
+
+.delimiter {
+  width: 100%;
+  height: 50px;
+  background-color: #17a2b8;
+}
+
+/* Intro Picture and Title End */
+/* Section Melanie */
+.section {
+  padding: 7% 10%;
+}
+
+.sectionEnd {
+  padding: 7% 10% 0;
+  line-height: 85%;
+}
+
+/* Footer Section */
+.nav-link3 {
+  color: #c8cbcc;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.nav-link3:hover {
+  color: #ffffff;
+  transition: color 400ms;
+}
+
+.mail {
+  color: #ffffff;
+  font-family: Montserrat;
+}
+
+.mail:hover {
+  color: #ffffff;
+  font-weight: bold;
+  transition: font-weight 400ms;
+  text-decoration: none;
+}
+
+.sectionTitle {
+  font-family: Montserrat;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  color: black;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+    0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.btn-default2 {
+  color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.btn-default2:hover {
+  color: white;
+  background-color: #17a2b8;
+}
+
+.btn-default {
+  color: white;
+  background-color: #17a2b8;
+}
+
+.btn-default:hover {
+  color: #17a2b8;
+  background-color: white;
+  border-color: #17a2b8;
+}
+
+.pasp3 {
+  padding-right: 12%;
+}
+
+.contac {
+  text-align: center;
+  background-image: url("images/tulum.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  padding-bottom: 2%;
+}
+
+.filter {
+  background-color: rgba(23, 162, 184, 0.5);
+  padding-bottom: 20px;
+}
+
+.form-group {
+  padding-bottom: 15px;
+}
+
+.card-body {
+  font-family: Roboto;
+  color: black;
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+
+#everything{
+  text-align: center;
+}
+
+.sectionTitle {
+    padding-top: 30px;
+}
+
+.left {
+  text-align: left;
+}
+.left .sectionTitle {
+  text-align: center;
+}
+
+.content {
+  padding-top: 33%;
+}
+
+.hrMain {
+  margin: auto;
+  margin-bottom: 7%;
+}
+
+
+}
+
+
+
+@media (max-width: 699px) {
+
+/* To Test Small Screen */
+/* footer {
+  display: none;
+} */
+
+.content {
+  padding-top: 40%;
+}
+
+#everything{
+  text-align: center;
+}
+
+.sectionTitle {
+    padding-top: 30px;
+}
+
+.left {
+  text-align: left;
+}
+.left .sectionTitle {
+  text-align: center;
+}
+
+.hrMain {
+  margin: auto;
+  margin-bottom: 7%;
+}
+
+
+}
